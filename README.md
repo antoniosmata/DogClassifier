@@ -4,7 +4,7 @@ Dog Classification Model Explanation:
 
 This Python code is for a dog classifica;on model that uses machine learning techniques to classify images of dogs into specific breeds. Here's a simplified breakdown of its funcionality:
 
-Data Preparaon:
+Data Preparation:
 • Load image labels from a CSV file.
 • Choose specific dog breeds (e.g., 'scoKsh_deerhound', 'maltese_dog', 'bernese_mountain_dog')
 for classifica;on.
@@ -15,7 +15,7 @@ Model Training:
 • Split the dataset into training, validation, and test sets.
 • Train three machine learning models: Random Forest, Support Vector Machine (SVM), and KNearest Neighbors (KNN).
 
-Evalua1on:
+Evaluation:
 • Evaluate the trained models on a test set and print accuracy and F1 score for each model.
 • Create a bar chart comparing the performance of the models.
 • Confusion Matrices:
@@ -25,7 +25,7 @@ chosen dog breeds.
 Model Saving:
 • Save the trained Random Forest model to a file using the Joblib library.
 
-Interac1ng with the Code:
+Interacting with the Code:
 For future users:
 • Adjust the list of selected dog breeds in the CLASS_NAMES variable.
 • Ensure the dataset path and file names match your setup.
