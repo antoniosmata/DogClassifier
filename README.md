@@ -1,4 +1,4 @@
-# DogClassifier
+# Dog Breed Classifier
 
 A machine learning model for classifying dog breeds from images.
 
